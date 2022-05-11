@@ -1,0 +1,45 @@
+page {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.noteList {
+  width: 98%;
+  height: 80px;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: pink;
+  margin: 10px 2px;
+
+}
+
+.row-title {
+  display: flex;
+  align-items: center;
+  height: 60%;
+  background-color: #f47983;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 2px 2px 5px;
+  max-width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.time {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 1px 2px 8px;
+}
+
+.type-img {
+  height: 30px;
+  width: 30px;
+  margin: 2px 8px 0px;
+}

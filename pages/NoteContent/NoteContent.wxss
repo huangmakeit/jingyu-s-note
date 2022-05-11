@@ -1,0 +1,67 @@
+/* pages/NoteContent/NoteContent.wxss */
+page{
+	padding: 0 0.5rem;
+	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+	box-sizing: border-box;
+}
+
+.delete{
+	display: flex;
+	justify-content: center;
+  position: fixed;
+  right: 0;
+	bottom: 0;
+	padding: 1rem 0;
+  width: 50%;
+}
+
+.edit{
+	display: flex;
+	justify-content: center;
+  position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 1rem 0;
+	width: 50%;
+}
+
+.action-text {
+	margin-left: 0.5rem;
+	font-size: 18px;
+}
+
+.row-title {
+	display: flex;
+	align-items: center;
+	padding: .5rem 0;
+}
+
+.title{
+	max-width: 80%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.type-img{
+  height: 30px;
+  width: 30px;
+}
+
+.time{
+	text-align: right;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 1px 2px 8px;
+}
+
+.img-wrapper {
+  display: flex;
+}
+
+.img {
+  width: 6rem;
+  height: 6rem;
+}

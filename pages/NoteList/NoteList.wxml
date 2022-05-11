@@ -1,0 +1,7 @@
+<view class="noteList" bindtap="noteContent" wx:for="{{note}}" wx:for-index="index" wx:for-item="nt" wx:key="_id" data-id="{{nt._id}}">
+  <view class="row-title">
+    <view class="title">{{nt.title}}</view>
+    <image class="type-img" src="../../image/type/{{nt.type}}.png"></image>
+  </view>
+  <view class="time">{{nt.time}}</view>
+</view>

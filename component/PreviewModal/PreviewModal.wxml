@@ -1,0 +1,3 @@
+<view>
+	<image 	show-menu-by-longpress src="{{src}}"></image>
+</view>

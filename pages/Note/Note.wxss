@@ -1,0 +1,94 @@
+/* pages/Note/Note.wxss */
+@import "../../weui.wxss";
+@import "./assets/iconfont.wxss";
+
+Page{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.option{
+  /* 第一个用于上，第二个用于左、右，第三个用于下*/
+  margin: 10px 8px 10px
+}
+.title{
+  font-size: 22px;
+}
+.time{
+  margin: 8px 0px 1px;
+}
+.iconfont {
+  display: inline-block;
+  padding: 8px 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.toolbar {
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-bottom: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+.ql-container {
+  box-sizing: border-box;
+  padding: 12px 15px;
+  width: 100%;
+  min-height: 10rem;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-top: 1px solid #c9c9c9;
+}
+
+.ql-active {
+  color: #06c;
+}
+.type-img{
+  height: 30px;
+  width: 30px;
+  margin: 3px 8px 1px 3px;
+}
+.save-btn{
+  font-family:fantasy;
+  font-weight: 600;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: linear-gradient(40deg, #a8edea 0%, #50c9c3 100%);
+}
+
+.imagesWrapper {
+  display: flex;
+}
+
+.imageWrapper {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.imageWrapper:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.image {
+  width: 6rem;
+  height: 6rem;
+}
+
+.loading {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  left: 0;
+  top: 0;
+}
+
+.deleteIcon {
+  position: absolute;
+  top: -0.8rem;
+  left: 5.4rem;
+}

@@ -1,0 +1,19 @@
+<view class="row-title">
+	<view class="title" title="{{title}}">{{title}}
+	</view>
+	<image class="type-img" src="../../image/type/{{type}}.png"></image>
+</view>
+<view class="time">{{time}}</view>
+<view class="img-wrapper">
+	<image bindtap="handlePreview" class="img" wx:if="{{!!src}}" wx:for="{{imgId}}" data-imgid="{{src}}" wx:key="src" wx:for-item="src" src="{{src}}"></image>
+</view>
+<rich-text nodes="{{content}}"></rich-text>
+
+<view class="edit" bindtap="editNote" data-id="{{id}}">
+	<mp-icon type="outline" icon="pencil" color="black" size="{{25}}" />
+	<view class="action-text">修改</view>
+</view>
+<view class="delete" bindtap="RemoveNote" data-id="{{id}}" data-imgid="{{imgId}}">
+	<mp-icon type="outline" icon="delete" color="black" size="{{25}}" />
+	<view class="action-text">删除</view>
+</view>

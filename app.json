@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/Note/Note",
+    "pages/NoteList/NoteList",
+    "pages/NoteContent/NoteContent"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fed6e3",
+    "navigationBarTitleText": "鲸鱼的日记本",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  },
+  "usingComponents": {
+		"mp-icon": "weui-miniprogram/icon/icon",
+    "preview-modal": "component/PreviewModal/PreviewModal",
+    "mp-loading": "weui-miniprogram/loading/loading"
+  }
+}

@@ -1,0 +1,4 @@
+<view class="name">JingYu's NotePad</view>
+<button class="buttonClassUp" bindtap="ToNotePage">记一笔帐</button>
+<button class="buttonClassDown" bindtap="ToNoteList">帐薄</button>
+<view class="me">coding by Kun</view>
